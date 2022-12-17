@@ -60,7 +60,7 @@ const Sidenav = () => {
         </Grid>
         <Divider color={"white"} orientation="vertical" flexItem></Divider>
         <Grid item md={0.5} sx={{ minWidth: 87 }} className="corners">
-          <img src="img/techkriti.svg" height={"45px"}></img>
+          <img src="images/menuBar.png" height={"16px"}></img>
         </Grid>
       </Grid>
       <Divider></Divider>
@@ -72,16 +72,23 @@ const Sidenav = () => {
         spacing={0}
         
       >
-        <Grid item md={0.5} sx={{ minWidth: 91 }} style={{height:"calc(100vh - 129px)",display:"flex",flexDirection:"column"}}>
-          <img src="img/techkriti.svg" height={"45px"}></img>
+        <Grid item md={0.5} sx={{ minWidth: 91 }} style={{height:"calc(100vh - 129px)",display:"flex",flexDirection:"column",alignItems:"center"}}>
+          <br />
+          <br />
+          <br />
+          <img src="images/facebook.png" height={"20px"} width={"11px"}></img>
           <br></br>
-          <img src="img/techkriti.svg" height={"45px"}></img>
           <br></br>
-          <img src="img/techkriti.svg" height={"45px"}></img>
+          <img src="images/twitter.png" height={"17.94px"}></img>
           <br></br>
-          <img src="img/techkriti.svg" height={"45px"}></img>
           <br></br>
-          <img src="img/techkriti.svg" height={"45px"}></img>
+          <img src="images/youtube.png" height={"24px"}></img>
+          <br></br>
+          <br></br>
+          <img src="images/linkedin.png" height={"24px"}></img>
+          <br></br>
+          <br></br>
+          <img src="images/instagram.png" height={"20px"}></img>
           {/* <br></br>
           <br></br>
           <br></br>
@@ -119,8 +126,10 @@ const Sidenav = () => {
         spacing={0}
         style={{position:"absolute",bottom:"0"}}
       >
-        <Grid item md={0.5} sx={{ minWidth: 91 }} className="corners">
-          <img src="img/techkriti.svg" height={"45px"}></img>
+        <Grid item md={0.5} sx={{ minWidth: 91,flexDirection:"column" }} className="corners"  >
+        <img src="images/Vector 5.png" height={"8px"}></img>
+        <img src="images/Vector 4.png" height={"8px"}></img>
+        <img src="images/Vector 3.png" height={"8px"}></img>
         </Grid>
         <Divider color={"white"} orientation="vertical" flexItem></Divider>
         <Grid item md>
