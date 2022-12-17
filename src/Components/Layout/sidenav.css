@@ -23,6 +23,21 @@
     width: 40px;
     height: 40px;
 }
+.topGrid{
+    height: 61px;
+}
+.leftGrid{
+    width:91px;
+}
+.rightGrid{
+    width: 87px;
+}
+.corners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* .sidenav {
     width: 50px;
     margin-top: 0px;
@@ -51,9 +66,9 @@ ul hr{
 }
 
 ul li img{
-    /* width: 25px;
-    height: 25px; */
-    /*margin-left: 15px;
+    width: 25px;
+    height: 25px;
+     margin-left: 15px;
     margin-bottom: 8px;
     margin-top: 6px;
 }
