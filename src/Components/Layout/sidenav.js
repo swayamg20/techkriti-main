@@ -13,7 +13,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
 // import './styles.css';
 import LogoutIcon from "@mui/icons-material/Logout";
 // import {useAuth} from './AuthContext'
@@ -92,10 +92,7 @@ const Sidenav = () => {
         </Grid>
         <Divider color={"white"} orientation="vertical" flexItem></Divider>
         <Grid item md>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id
-          dignissim justo. Nulla ut facilisis ligula. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus. Sed malesuada lobortis
-          pretium.
+          <Outlet />
         </Grid>
         <Divider color={"white"} orientation="vertical" flexItem></Divider>
         <Grid item md={0.5} sx={{ minWidth: 87 }} style={{display:"flex",flexDirection:"column"}}>
